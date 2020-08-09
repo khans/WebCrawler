@@ -1,0 +1,19 @@
+
+<!-- Enter the form details-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="http://localhost:5000/input" method="post">
+  <label for="inputurl">Please input the URL:</label><br>
+  <input type="url" id="inputurl" name="inputurl" value="https://walrus.ai/" required="required"><br>
+  <label for="limit">Please input the Limit (between 1 and 1000):</label><br>
+  <input type="number" id="limit" name="limit" min = "1" max="1000" value = "1"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+</body>
+</html>
+
